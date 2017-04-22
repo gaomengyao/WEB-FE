@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>learn-more</title>
+		<link type="text/css" rel="stylesheet" href="main.css">
+		</link>
+	</head>
+	<body>
+		<h1>拎猫-讨论区</h1>
+		<p>表单</p>
+		<ul>
+			<li><strong>数学</strong></li>
+			<li><strong>语文</strong></li>
+			<li><a href="English.html"><strong>英语</strong></a></li>
+			<li><strong>讨论区</strong></li>
+		</ul>
+		<table class="suggest">
+			<tr>
+				<td class="td-label"><label for="title">标题</label></td>
+				<td><input type="text" id="title" name="recipe-name"></td>
+			</tr>
+			<tr>
+				<td class="td-label"><label for="konwledge">文件上传</label></td>
+				<td><input type="file" id="konwledge"></td>
+			</tr>
+		
+		<tr>
+			<td class="td-label"><label>文件类型</label></td>
+			<td><input type="radio" name="type" id="type-a" checked><label for="type-a" value="1">原创</label>
+			<input type="radio" name="type" id="type-b"><label for="type-b" value="2">转载</label></td>
+		</tr>
+		<tr>
+			<td class="td-label"><label>类型</label></td>
+			<td>
+				<select>
+				        <option>小学</option>
+				        <option selected>初中</option>
+				        <option>高中</option>
+				        <option>大学</option>
+			    </select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td-label"><label for="directions">描述</label></td>
+			<td><textarea id="directions" class="a"></textarea><br></td>
+		</tr>
+		<tr>
+			<td class="td-label"><label for="text">内容</label></td>
+			<td><textarea id="text" class="b"></textarea><br></td>
+		</tr>
+		<tr>
+			<td class="td-label"><input type="checkbox" id="newsletter" checked>
+			<label for="newsletter">订阅</label><br></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="td-btn"><input type="submit" value="发布"><input type="reset" value="重新填写"></td>
+		</tr>
+		</table>
+		</form>
+	</body>
+</html>

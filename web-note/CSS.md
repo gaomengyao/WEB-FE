@@ -38,3 +38,6 @@ color:red;
 2、`rel="stylesheet" type="text/css"` 是固定写法不可修改。
 
 3、<link>标签位置一般写在<head>标签之内。
+
+<input type="button" value="普通按钮" />
+			<button>button按钮</button>

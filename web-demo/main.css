@@ -1,0 +1,71 @@
+
+ul li{
+				display: inline;
+				margin: 20px 50px 25px 50px;
+				font-size: 35px;
+			}
+			ul{
+				background: #6C8BCB;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover{
+				text-decoration: underline;
+				color: darkred;
+			}
+			h1{
+				font-size: 50px;
+				margin: 20px 0 25px 0;
+				border-bottom: 1px solid #6C8BCB;
+				text-align: center;
+				
+			}
+			h2{
+				font-size: 25px;
+			}
+			p{
+				font-size: 20px;
+			}
+			textarea{
+				resize: none;
+			}
+.suggest{
+	width: 100%;
+}
+.suggest td{
+	padding: 5px;
+}
+.suggest .td-label{
+	width: 100px;
+	text-align: right;
+}
+.suggest .td-btn{
+	text-align: center;	
+}
+.suggest input[type=text]{
+	width: 500px;
+	padding: 7px;
+	border: 2px solid #79B1A3;
+}
+.suggest textarea{
+	width: 500px;
+	padding: 7px;
+	border: 2px solid #79B1A3;
+}
+#directions{
+	height: 100px;
+}
+#text{
+	height:300px;
+}
+.suggest input[type="submit"],.suggest input[type="reset"]{
+	width: 120px;
+	font-size: 20px;
+}
+/*
+ .suggest .td-btn input{
+ 	
+ }
+ */
